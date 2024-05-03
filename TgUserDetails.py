@@ -26,9 +26,9 @@ parser.add_argument('-p', '--phone', type=str, help='The phone number of the use
 parser.add_argument('-l', '--url', type=str, help='The URL of a message sent by the user in a public channel or group')
 args = parser.parse_args()
 
-api_id = ******** 
-api_hash = "-----------------------------" 
-phone = "+00000000000"
+api_id = 20739308 
+api_hash = "b4c20caeede6b5bc781a587c6f11d10f" 
+phone = "+61 4 7871 4915"
 client = TelegramClient('session_name', api_id, api_hash)
 
 client.connect()
